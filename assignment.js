@@ -3,7 +3,7 @@
 
 
 
-// kilometerToMeter_Section-------------------------------------
+// ---------------------------------------kilometerToMeter_Section-------------------------------------
 
 
 function kilometerToMeter(kilometer) {
@@ -18,7 +18,7 @@ function kilometerToMeter(kilometer) {
 
 
 
-// budgetCalculator_Section--------------------------------------------
+// ---------------------------------------budgetCalculator_Section--------------------------------------------
 
 function budgetCalculator(numberOfWatch, numberOfMobile, numberOfLaptop) {
     if (numberOfWatch < 0 || numberOfMobile < 0 || numberOfLaptop < 0) {
@@ -32,7 +32,7 @@ function budgetCalculator(numberOfWatch, numberOfMobile, numberOfLaptop) {
 }
 
 
-// hotelCost_Section-----------------------------------------------
+// -------------------------------------------hotelCost_Section-----------------------------------------------
 
 
 function hotelCost(estimatedDays) {
@@ -60,7 +60,7 @@ function hotelCost(estimatedDays) {
 
 
 
-// megaFriend_Section------------------------------------------------
+// --------------------------------------------megaFriend_Section------------------------------------------------
 
 function megaFriend(list) {
     var bigWord = list[0];
@@ -76,3 +76,4 @@ var result = megaFriend(["rana", "rahim", "rafsan", "abdullah"]);
 console.log(result);
 
 
+// -----------------------------------------------------END---------------------------------------
